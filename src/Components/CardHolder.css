@@ -1,0 +1,37 @@
+.cardDiv {
+  width: 90vw;
+  height: 99vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: white;
+}
+.cardContent {
+  position: absolute;
+  top: 60%;
+  margin-left: 12px;
+  border-radius: 16px;
+  width: 300px;
+  height: 140px;
+  background-color: white;
+}
+.cardTitle {
+  color: #1683f7;
+  text-align: left;
+  margin: 5px 15px;
+}
+.cardSubTitle {
+  color: black;
+  text-align: left;
+  margin: 5px 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.cardText {
+  color: black;
+  font-weight: 500;
+  color: #79777c;
+  text-align: left;
+  margin: 5px 12px;
+}
