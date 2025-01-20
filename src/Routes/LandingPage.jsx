@@ -5,8 +5,12 @@ import Banner from "../Components/Banner";
 const LandingPage = () => {
   return (
     <div>
+      <div>
       <Banner />
+      </div>
+      <div>
       <CardHolder />
+      </div>
     </div>
   );
 };
