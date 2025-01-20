@@ -2,6 +2,7 @@
 import React from "react";
 import CardHolder from "../Components/cardHolder";
 import Banner from "../Components/Banner";
+import Packages from "../Components/Packages";
 const LandingPage = () => {
   return (
     <div>
@@ -10,6 +11,9 @@ const LandingPage = () => {
       </div>
       <div>
       <CardHolder />
+      </div>
+      <div>
+        <Packages/>
       </div>
     </div>
   );
