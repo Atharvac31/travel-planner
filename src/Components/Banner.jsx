@@ -6,8 +6,12 @@ import HeroSection from "./HeroSection";
 const Banner = () => {
   return (
     <div>
-    <Navbar/>
-    <HeroSection/>
+      <div className="navDiv">
+        <Navbar />
+      </div>
+      <div className="hero">
+        <HeroSection />
+      </div>
     </div>
   );
 };
